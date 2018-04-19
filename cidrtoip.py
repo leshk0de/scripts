@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # This scripts converts a list of cidr notation IP ranges to /32 ip list. 
+# Written by: unitato 
 #
 # $cat ip-range.list
 # 192.168.0.0/24
