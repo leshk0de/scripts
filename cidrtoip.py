@@ -1,4 +1,13 @@
 #!/usr/bin/env python
+# This scripts converts a list of cidr notation IP ranges to /32 ip list. 
+#
+# $cat ip-range.list
+# 192.168.0.0/24
+# 10.0.0.1
+#
+# usage: ./cidrtoip.py -f ip-range.list
+# 
+
 import re
 import sys
 import os.path
