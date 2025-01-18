@@ -1,0 +1,43 @@
+{
+    "risk_categories": {
+      "Critical": [80, 100],
+      "High": [60, 79],
+      "Medium": [40, 59],
+      "Low": [0, 39]
+    },
+    "attack_vector_scores": {
+      "Homograph Attack": 20,
+      "Keyboard Proximity": 15,
+      "Homophone Attack": 15,
+      "Character Substitution": 10,
+      "Character Omission": 10,
+      "Character Addition": 8,
+      "Character Repetition": 8,
+      "TLD Variation": 5,
+      "Other": 5
+    },
+    "tld_risk_scores": {
+      "com": 5,
+      "net": 5,
+      "org": 5,
+      "co": 5,
+      "io": 10,
+      "ai": 10,
+      "dev": 10,
+      "cloud": 10,
+      "tk": 15,
+      "ga": 15,
+      "cf": 15,
+      "ml": 15
+    },
+    "tech_tld_bonus": {
+      "ai": 5,
+      "io": 5,
+      "dev": 5,
+      "app": 5,
+      "cloud": 5,
+      "tech": 5
+    },
+    "exact_domain_match_score": 100
+  }
+  
